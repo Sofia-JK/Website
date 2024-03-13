@@ -1,0 +1,48 @@
+.cont-obmen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    background: #FFFFFF;
+}
+
+.cont-obmen>img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    margin-top: 54px;
+    object-fit: cover;
+}
+
+.cont-obmen>p{
+    font-family: Marckscript;
+    font-size: 36px;
+    color: #193A67;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.cont-obmen>button{
+    padding: 25px 31px;
+    background: #F5DC88;
+    color: #193A67;
+    font-size: 20px;
+    font-family: PTserif;
+    font-weight: bold;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 37px;
+}
+
+.cont-obmen>button:hover{
+    background: #193A67;
+    color: #E7F3FB;
+}
+
+.cont-obmen>button:focus{
+    background: #BFF588;
+    color: #193A67;
+}

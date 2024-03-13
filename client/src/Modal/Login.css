@@ -1,0 +1,92 @@
+.login{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(25, 58, 103, 0.36);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.login.active{
+    opacity: 1;
+    pointer-events: all;
+
+}
+.login_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #E7F3FB;
+    padding: 52px 200px;
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+
+.login_content.active{
+    transform: scale(1)
+}
+
+.name-auth{
+    font-family: Marckscript;
+    font-size: 48px;
+    color: #193A67;
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+
+.inp-auth{
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    border: none;
+    padding: 21px 33px;
+    width: -webkit-fill-available;;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 24px;
+    font-family: PTserif;
+    font-weight: normal;
+    color: #193A67;
+    margin-top: 35px;
+}
+
+.help{
+    font-family: PTserif;
+    font-weight: normal;
+    color: #193A67;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+span{
+    color: #F58F88;
+}
+
+.login_content.active>button{
+    padding: 25px 71px;
+    background: #F5DC88;
+    color: #193A67;
+    font-size: 24px;
+    font-family: PTserif;
+    font-weight: bold;
+    border: none;
+    border-radius: 35px;
+    margin-top: 35px;
+}
+
+.login_content.active>button:hover{
+    background: #193A67;
+    color: #E7F3FB;
+}
+
+.login_content.active>button:focus{
+    background: #BFF588;
+    color: #193A67;
+}

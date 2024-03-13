@@ -1,0 +1,41 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.head>p{
+    font-family: PTserif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #193A67;
+}
+
+.head>p:hover{
+    font-weight: bold;
+}
+
+.logo-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-head>img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo-head>p{
+    font-family: Marckscript;
+    color: #193A67;
+    font-size: 36px;
+    margin: 0px;
+}
+
+
+

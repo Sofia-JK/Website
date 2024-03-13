@@ -1,0 +1,43 @@
+.fut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 193px;
+    margin-top: 100px;
+    background: #193A67;
+    border-radius: 25px 25px 0px 0px;
+    padding: 0px 150px;
+}
+
+.logo-fut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-fut>img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo-fut>p{
+    font-family: Marckscript;
+    color: #E7F3FB;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.info-fut{
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
+
+.info-fut>p{
+    margin: 0px;
+    font-family: PTserif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #E7F3FB;
+}

@@ -1,0 +1,38 @@
+.cont-otpr{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-endex{
+    width: -webkit-fill-available;
+    padding: 18px 30px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    background: #FFFFFF;
+    font-family: PTserif;
+    font-weight: normal;
+    color: #193A67;
+    font-size: 24px;
+}
+
+.cont-otpr>button{
+    padding: 18px 39px;
+    background: #F5DC88;
+    color: #193A67;
+    font-size: 20px;
+    font-family: PTserif;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+}
+
+.cont-otpr>button:hover{
+    background: #193A67;
+    color: #E7F3FB;
+}
+
+.cont-otpr>button:focus{
+    background: #BFF588;
+    color: #193A67;
+}

@@ -1,0 +1,23 @@
+.info-pravila{
+    margin: 62px 150px 0px 150px;
+    padding: 0px 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.pravila{
+    padding: 23px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    background: #FFFFFF;
+}
+
+.pravila>p{
+    font-family: PTserif;
+    font-weight: normal;
+    color: #193A67;
+    font-size: 24px;
+    margin: 0px;
+}

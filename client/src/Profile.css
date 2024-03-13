@@ -1,0 +1,135 @@
+.profile{
+    min-height: 550px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 50px 150px 0px 150px;
+}
+
+.cont-profile{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    padding: 40px 54px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    background: #FFFFFF;
+    gap: 48px;
+}
+
+.cont-admin{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 40px 54px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 12px 0px rgba(25, 58, 103, 0.12);
+    background: #FFFFFF;
+}
+
+.nick-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nick-img>img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    background: #F5DC88;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.nick-img>p{
+    font-family: Marckscript;
+    font-size: 36px;
+    color: #193A67;
+    margin: 0px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.details>p{
+    font-family: PTserif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #193A67;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.click{
+    width: fit-content;
+    padding: 13px 27px;
+    background: #F5DC88;
+    color: #193A67;
+    font-size: 20px;
+    font-family: PTserif;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-top: 39px;
+}
+
+.click:hover{
+    background: #193A67;
+    color: #E7F3FB;
+}
+
+.click:focus{
+    background: #BFF588;
+    color: #193A67;
+}
+
+.otpravleno{
+    grid-column-start: 8;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.request{
+    grid-column-start: 3;
+    grid-column-end: 9;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 58px;
+    gap: 35px;
+}
+
+.tit{
+    font-family: Marckscript;
+    font-size: 40px;
+    color: #193A67;
+    margin: 0px;
+}
+
+.need{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}

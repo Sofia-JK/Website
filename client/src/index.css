@@ -1,0 +1,52 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 150px;
+}
+
+img{
+    width: fit-content;
+    margin-top: 35px;
+}
+
+.info>p{
+    font-family: Marckscript;
+    width: 887px;
+    color: #193A67;
+    font-size: 48px;
+    text-align: center;
+    align-self: center;
+    margin: 0px;
+}
+
+.info>button{
+    padding: 25px 40px;
+    background: #F5DC88;
+    margin-top: 45px;
+    font-family: PTserif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #193A67;
+    align-self: center;
+    border: 3px solid #F5DC88;
+    border-radius: 35px;
+}
+
+.info>button:hover{
+    background: #F5F5F5;
+    border: 3px solid #193A67;
+}
+
+.img2{
+    align-self: self-end;
+}
+
+.obmen{
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px,1fr));
+    width: -webkit-fill-available;
+    grid-column-gap: 20px;
+    grid-row-gap: 72px;
+    align-items: normal;
+}

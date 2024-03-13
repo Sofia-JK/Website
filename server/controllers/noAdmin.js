@@ -1,0 +1,11 @@
+import { sql } from "../db.js";
+
+//контроллер добавления заявки
+export const noAdmin = async (req, res) => {
+    //вытаскиваем json и сразу вытаскиваем из нее переменные
+    const {id} = req.body;
+
+    await sql`delete from Requests where id = ${id}`
+    //отправляем пользователю 200 статус код (это значит что всё успешно)
+    return res.send({message: "Заявка успешно обновлена"})
+}

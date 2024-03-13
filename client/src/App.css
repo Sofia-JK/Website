@@ -1,0 +1,32 @@
+#root, body{
+  margin: 0;
+  padding: 0;
+  background: #E7F3FB;
+}
+
+
+
+
+@font-face {
+  font-family: Marckscript;
+  src: url('./assets/text/Marckscript.ttf');
+}
+
+@font-face {
+  font-family: PTserif;
+  font-weight: normal;
+  src: url('./assets/text/ptserif.ttf');
+}
+
+@font-face {
+  font-family: PTserif;
+  font-weight: bold;
+  src: url('./assets/text/ptserifbold.ttf');
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
